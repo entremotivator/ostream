@@ -6,7 +6,6 @@ from datetime import datetime
 import time
 from typing import List, Dict
 import os
-from config import AppConfig
 from utils import (
     initialize_session_state,
     save_chat_history,

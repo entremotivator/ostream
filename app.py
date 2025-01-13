@@ -13,7 +13,7 @@ if 'messages' not in st.session_state:
 
 def call_n8n_webhook(message):
     """Call n8n webhook with the user message"""
-    n8n_webhook_url = "YOUR_N8N_WEBHOOK_URL"  # Replace with your n8n webhook URL
+    n8n_webhook_url = "https://agentonline-u29564.vm.elestio.app/webhook-test/chat"  # Replace with your n8n webhook URL
     
     payload = {
         "message": message,
